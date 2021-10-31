@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/text_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Add details to make a post request" />
+
+    <EditText
+        android:id="@+id/title_ED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Title" />
+
+    <EditText
+        android:id="@+id/author_ED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Author Name" />
+
+    <EditText
+        android:id="@+id/inge_ED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Ingredents" />
+
+    <EditText
+        android:id="@+id/instr_ED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Instruction" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+
+        android:text="save receipe" />
+
+    <Button
+        android:id="@+id/view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:onClick="viewreceipe"
+        android:text="View receipes" />
+
+</LinearLayout>
